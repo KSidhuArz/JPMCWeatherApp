@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BD276390-FFF2-48C1-9B2C-928229ED9D4C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94A47940-B2BC-42BD-A5BD-999971182598"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JPMCWeatherApp/WebService/ApiService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "getWeatherList(search:onSuccess:onError:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "94A47940-B2BC-42BD-A5BD-999971182598 - df7f3a27acc7b015"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JPMCWeatherApp.ApiService.getWeatherList(search: Foundation.URL, comletion: (JPMCWeatherApp.Result) -&gt; ()) -&gt; ()"
+                  moduleName = "JPMCWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramandeepsingh/Desktop/JPMC/JPMCWeatherApp/JPMCWeatherApp/WebService/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  uuid = "94A47940-B2BC-42BD-A5BD-999971182598 - 397745465f2eb18a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JPMCWeatherApp.ApiService.getWeatherList(search: Swift.String, onSuccess: (JPMCWeatherApp.Result) -&gt; (), onError: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "JPMCWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramandeepsingh/Desktop/JPMC/JPMCWeatherApp/JPMCWeatherApp/WebService/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "94A47940-B2BC-42BD-A5BD-999971182598 - 2ea84573ffdfa32f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JPMCWeatherApp.ApiService.getWeatherList(search: Swift.String, onSuccess: (JPMCWeatherApp.Result) -&gt; (), onError: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "JPMCWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramandeepsingh/Desktop/JPMC/JPMCWeatherApp/JPMCWeatherApp/WebService/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "261">
+               </Location>
+               <Location
+                  uuid = "94A47940-B2BC-42BD-A5BD-999971182598 - 397745465f2eb1c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JPMCWeatherApp.ApiService.getWeatherList(search: Swift.String, onSuccess: (JPMCWeatherApp.Result) -&gt; (), onError: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "JPMCWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramandeepsingh/Desktop/JPMC/JPMCWeatherApp/JPMCWeatherApp/WebService/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "94A47940-B2BC-42BD-A5BD-999971182598 - 2ea84573ffdfa4e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JPMCWeatherApp.ApiService.getWeatherList(search: Swift.String, onSuccess: (JPMCWeatherApp.Result) -&gt; (), onError: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "JPMCWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramandeepsingh/Desktop/JPMC/JPMCWeatherApp/JPMCWeatherApp/WebService/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "261">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA74B139-D0D1-4607-A2CB-7B26D9BF78E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JPMCWeatherApp/WebService/ApiService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "getWeatherList(search:onSuccess:onError:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EA74B139-D0D1-4607-A2CB-7B26D9BF78E6 - 2ea84573ffdfa4e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JPMCWeatherApp.ApiService.getWeatherList(search: Swift.String, onSuccess: (JPMCWeatherApp.Result) -&gt; (), onError: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "JPMCWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramandeepsingh/Desktop/JPMC/JPMCWeatherApp/JPMCWeatherApp/WebService/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "261">
+               </Location>
+               <Location
+                  uuid = "EA74B139-D0D1-4607-A2CB-7B26D9BF78E6 - 2ea84573ffdfa4e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JPMCWeatherApp.ApiService.getWeatherList(search: Swift.String, onSuccess: (JPMCWeatherApp.Result) -&gt; (), onError: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "JPMCWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramandeepsingh/Desktop/JPMC/JPMCWeatherApp/JPMCWeatherApp/WebService/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "331">
+               </Location>
+               <Location
+                  uuid = "EA74B139-D0D1-4607-A2CB-7B26D9BF78E6 - 2ea84573ffdfa4e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JPMCWeatherApp.ApiService.getWeatherList(search: Swift.String, onSuccess: (JPMCWeatherApp.Result) -&gt; (), onError: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "JPMCWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramandeepsingh/Desktop/JPMC/JPMCWeatherApp/JPMCWeatherApp/WebService/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "581">
+               </Location>
+               <Location
+                  uuid = "EA74B139-D0D1-4607-A2CB-7B26D9BF78E6 - 2ea84573ffdfa32f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JPMCWeatherApp.ApiService.getWeatherList(search: Swift.String, onSuccess: (JPMCWeatherApp.Result) -&gt; (), onError: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "JPMCWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramandeepsingh/Desktop/JPMC/JPMCWeatherApp/JPMCWeatherApp/WebService/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "261">
+               </Location>
+               <Location
+                  uuid = "EA74B139-D0D1-4607-A2CB-7B26D9BF78E6 - 2ea84573ffdfa32f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JPMCWeatherApp.ApiService.getWeatherList(search: Swift.String, onSuccess: (JPMCWeatherApp.Result) -&gt; (), onError: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "JPMCWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramandeepsingh/Desktop/JPMC/JPMCWeatherApp/JPMCWeatherApp/WebService/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "331">
+               </Location>
+               <Location
+                  uuid = "EA74B139-D0D1-4607-A2CB-7B26D9BF78E6 - 2ea84573ffdfa32f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JPMCWeatherApp.ApiService.getWeatherList(search: Swift.String, onSuccess: (JPMCWeatherApp.Result) -&gt; (), onError: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "JPMCWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramandeepsingh/Desktop/JPMC/JPMCWeatherApp/JPMCWeatherApp/WebService/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "581">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
