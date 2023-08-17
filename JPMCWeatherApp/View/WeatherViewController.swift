@@ -15,6 +15,7 @@ class WeatherViewController: UIViewController {
     var activityIndicator = UIActivityIndicatorView(style: .large)
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         /*intializing list manager*/
         objWeatherListManager = WeatherListManager(delegate: self)
         
@@ -31,7 +32,7 @@ class WeatherViewController: UIViewController {
         locationAccessSetUp()
     }
     
-    /*set up location manager for access user location*/
+    ///set up location manager for access user location
     func locationAccessSetUp(){
         locationManager = CLLocationManager()
         locationManager?.delegate = self
@@ -40,6 +41,7 @@ class WeatherViewController: UIViewController {
     
     //MARK: Button Action
     
+    /// when user click on search button we are passing input to list manager
     @IBAction func searchWeatherAction(_ sender: Any) {
         UserDefaults.standard.setValue(inputNameTextField.text, forKey: "lastSearch")
         inputNameTextField.resignFirstResponder()
@@ -47,7 +49,7 @@ class WeatherViewController: UIViewController {
         
         if locationEnable == true {
             activityIndicator.startAnimating()
-            objWeatherListManager?.fetchWeatherList(search: inputNameTextField.text ?? "")
+            objWeatherListManager?.fetchWeatherList(search: replaceSpaceFromString(input: inputNameTextField.text ?? ""))
         } else {
             self.backGroundView.isHidden = true
             let alert = UIAlertController(title: "", message: "Please turn on your location", preferredStyle: .alert)
@@ -57,6 +59,13 @@ class WeatherViewController: UIViewController {
             }))
             present(alert, animated: true)
         }
+    }
+    
+    /// Remove space from string for final url
+    /// - Parameter input: we pass city name
+    /// - Returns: final string space replace with %20
+    func replaceSpaceFromString(input:String) -> String{
+        return input.replacingOccurrences(of: " ", with: "%20")
     }
 }
 
@@ -80,6 +89,8 @@ extension WeatherViewController: WeatherListManagerDelegate{
         }
     }
     
+    /// handling error case
+    /// - Parameter message: getting error message
     func failedFetchWeatherList(message:String) {
         DispatchQueue.main.async {
             self.activityIndicator.stopAnimating()

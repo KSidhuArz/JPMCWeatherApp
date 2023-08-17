@@ -10,7 +10,7 @@ extension UIImageView {
         URLSession.shared.dataTask(with: url, completionHandler: completion).resume()
     }
     
-    /*check if image already downloaded if yes then fetching image from cache otherwise downloading image and saving in cache*/
+    /// check if image already downloaded if yes then fetching image from cache otherwise downloading image and saving in cache
     func loadWeatherImage(from url:URL, completion: @escaping() -> ()){
         if let cacheIconImage = imageCache.object(forKey: url.absoluteString as NSString) {
             DispatchQueue.main.async {

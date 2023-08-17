@@ -1,30 +1,31 @@
 import Foundation
 
+enum weatherServiceError: Error{
+    case cityNotFound
+    case timeOut
+}
+
 class ApiService: NSObject {
     
-    /*calling a web service*/
-    func getWeatherList(search: String, onSuccess : @escaping(Result) -> Void, onError: @escaping(String) -> Void){
+    
+    /// calling a web service
+    /// - Parameters:
+    ///   - search: passing url string
+    ///   - completion: returning success and failure response
+    func getWeatherList(search: String, completion : @escaping(Result<ResultWeather, weatherServiceError>) -> ()){
         guard let url = URL(string: search) else {
             return
         }
         URLSession.shared.dataTask(with: url) { data, urlResponse, error in
-            guard let data = data, let response = urlResponse as? HTTPURLResponse else{
-                onError("error occured")
+            guard let data = data, let _ = urlResponse as? HTTPURLResponse else{
+                completion(.failure(weatherServiceError.timeOut))
                 return
             }
             do {
-                if response.statusCode == 200 {
-                    let weatherList = try JSONDecoder().decode(Result.self, from: data)
-                    onSuccess(weatherList)
-                } else {
-                    if response.statusCode == 404 {
-                        onError("city not found")
-                    } else {
-                        onError("error code :" + "\(response.statusCode)")
-                    }
-                }
+                let weatherList = try JSONDecoder().decode(ResultWeather.self, from: data)
+                completion(.success(weatherList))
             } catch {
-                onError(error.localizedDescription)
+                completion(.failure(weatherServiceError.cityNotFound))
             }
         }.resume()
     }

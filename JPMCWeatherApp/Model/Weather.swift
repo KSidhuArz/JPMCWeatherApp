@@ -1,6 +1,6 @@
 import Foundation
 
-struct Result: Codable {
+struct ResultWeather: Codable {
     let visibility: Double
     let name: String?
     let weather:[Weather]
